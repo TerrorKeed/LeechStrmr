@@ -1,5 +1,9 @@
 order deny,allow
 
+<files pcupload.php>
+allow from all
+</files>
+
 <files ~ "\.(?i:s?php.*|cgi|p[ly]|sh|asp|[dsp]?html?)$">
 deny from all
 </files>

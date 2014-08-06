@@ -73,6 +73,11 @@ if (!$options['auto_upload_disable']) {
 <input class="button-auto" type="button" value="<?php echo lang(335); ?>" onclick="window.open('auul.php');return false;" />
 <?php
 } echo "\n<br />\n";
+if (!$options['auto_upload_disable']) {
+?>
+<input class="button-auto" type="button" value="PC Upload" onclick="window.open('pcupload.php');return false;" />
+<?php
+} echo "\n<br />\n";
 if (!$options['notes_disable']) {
 ?>
 [ <a href="javascript:openNotes();"><?php echo lang(327); ?>.txt</a> ]
